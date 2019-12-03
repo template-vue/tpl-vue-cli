@@ -1,0 +1,32 @@
+{
+    "name": "tpl-vue-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "description": "vue template",
+    "bin": {
+        "tpl": "bin/tpl",
+        "tpl-add": "bin/tpl-add",
+        "tpl-delete": "bin/tpl-delete",
+        "tpl-list": "bin/tpl-list",
+        "tpl-init": "bin/tpl-init"
+    },
+    "bugs": {
+        "url": "https://github.com/template-vue/tpl-vue-cli/issues"
+    },
+    "homepage": "https://github.com/template-vue/tpl-vue-cli",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/template-vue/tpl-vue-cli"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "commander": "^2.19.0",
+        "download-git-repo": "^1.1.0",
+        "inquirer": "^6.2.2",
+        "ora": "^3.2.0"
+    }
+}
