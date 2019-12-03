@@ -1,9 +1,9 @@
 {
     "name": "tpl-vue-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "license": "MIT",
-    "description": "vue template",
+    "description": "vue template create",
     "bin": {
         "tpl": "bin/tpl",
         "tpl-add": "bin/tpl-add",
